@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+  </head>
+  <body>
+    <!-- <h1><%= title %></h1> -->
+    <!-- <p>Welcome to <%= title %></p> -->
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="centering text-center">
+          <br />
+          <br />
+          <br />
+          <button id="fwd" type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary btn-lg">Up</button>
+          <br />
+          <br />
+          <button id="left" type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary btn-lg">Left</button>
+          <button id="stop" type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-danger btn-lg">Stop</button>
+          <button id="right" type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary btn-lg"
+          >Right</button>
+          <br />
+          <br />
+          <button id="back" type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary btn-lg">Down</button>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/javascripts/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="/javascripts/bootstrap.min.js"></script>    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="javascripts/soccer.js"></script
+  </body>
+</html>
