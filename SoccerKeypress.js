@@ -28,10 +28,6 @@ board.on("ready", function() {
     servo2: servo2
   });
 
-  /*
-    servo1.cw() => Adelante
-    servo2.cw() => Atrás
-  */
 
   keypress(process.stdin);
 
